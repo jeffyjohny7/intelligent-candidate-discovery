@@ -1,0 +1,9 @@
+# Dataset only - too large
+candidates.jsonl
+*.jsonl.gz
+
+# Python environment
+redvenv/
+redvenv311/
+__pycache__/
+*.pyc

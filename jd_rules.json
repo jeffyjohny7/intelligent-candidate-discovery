@@ -1,0 +1,29 @@
+{
+"target_role": "Senior AI Engineer (Founding Team)",
+"core_semantic_query": "Senior AI Machine Learning Engineer. Building recommendation systems, search, ranking, and retrieval systems at scale in production. Experience with vector databases, dense embeddings, hybrid search, and evaluation metrics like NDCG and MAP. Product engineering focus, shipping code, A/B testing.",
+"anti_patterns": {
+"consulting_only": {
+"trigger_industries": ["IT Services", "Consulting", "Outsourcing"],
+"trigger_companies": ["tcs", "infosys", "wipro", "cognizant", "accenture", "capgemini", "mindtree"],
+"penalty_multiplier": 0.5
+},
+"title_chaser": {
+"max_avg_tenure_months_flag": 18,
+"penalty_multiplier": 0.7
+},
+"irrelevant_titles": [
+"Marketing", "HR", "Recruiter", "Sales", "Writer", "Designer",
+"Accountant", "Mechanical", "Civil", "Support", "Operations"
+]
+},
+"bonuses": {
+"product_company": 1.2,
+"high_github_activity": 1.15,
+"ideal_location_or_relocate": 1.10,
+"fast_notice_period": 1.05
+},
+"weights": {
+"semantic_fit": 0.6,
+"career_dna": 0.4
+}
+}
